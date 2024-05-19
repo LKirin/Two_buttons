@@ -52,10 +52,10 @@ RM = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Common
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Two_buttons_game
+CMAKE_SOURCE_DIR = C:\two_buttons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Two_buttons_game\build
+CMAKE_BINARY_DIR = C:\two_buttons\build
 
 # Include any dependencies generated for this target.
 include libs/raylib/raylib/CMakeFiles/raylib.dir/depend.make
@@ -70,108 +70,108 @@ include libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/rcore.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C:/two_buttons/libs/raylib-4.1/src/rcore.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj -MF CMakeFiles\raylib.dir\rcore.c.obj.d -o CMakeFiles\raylib.dir\rcore.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\rcore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj -MF CMakeFiles\raylib.dir\rcore.c.obj.d -o CMakeFiles\raylib.dir\rcore.c.obj -c C:\two_buttons\libs\raylib-4.1\src\rcore.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/rcore.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\rcore.c > CMakeFiles\raylib.dir\rcore.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\rcore.c > CMakeFiles\raylib.dir\rcore.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/rcore.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\rcore.c -o CMakeFiles\raylib.dir\rcore.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\rcore.c -o CMakeFiles\raylib.dir\rcore.c.s
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/rmodels.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C:/two_buttons/libs/raylib-4.1/src/rmodels.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj -MF CMakeFiles\raylib.dir\rmodels.c.obj.d -o CMakeFiles\raylib.dir\rmodels.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\rmodels.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj -MF CMakeFiles\raylib.dir\rmodels.c.obj.d -o CMakeFiles\raylib.dir\rmodels.c.obj -c C:\two_buttons\libs\raylib-4.1\src\rmodels.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/rmodels.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\rmodels.c > CMakeFiles\raylib.dir\rmodels.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\rmodels.c > CMakeFiles\raylib.dir\rmodels.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/rmodels.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\rmodels.c -o CMakeFiles\raylib.dir\rmodels.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\rmodels.c -o CMakeFiles\raylib.dir\rmodels.c.s
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/rshapes.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C:/two_buttons/libs/raylib-4.1/src/rshapes.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj -MF CMakeFiles\raylib.dir\rshapes.c.obj.d -o CMakeFiles\raylib.dir\rshapes.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\rshapes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj -MF CMakeFiles\raylib.dir\rshapes.c.obj.d -o CMakeFiles\raylib.dir\rshapes.c.obj -c C:\two_buttons\libs\raylib-4.1\src\rshapes.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/rshapes.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\rshapes.c > CMakeFiles\raylib.dir\rshapes.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\rshapes.c > CMakeFiles\raylib.dir\rshapes.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/rshapes.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\rshapes.c -o CMakeFiles\raylib.dir\rshapes.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\rshapes.c -o CMakeFiles\raylib.dir\rshapes.c.s
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/rtext.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C:/two_buttons/libs/raylib-4.1/src/rtext.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj -MF CMakeFiles\raylib.dir\rtext.c.obj.d -o CMakeFiles\raylib.dir\rtext.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\rtext.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj -MF CMakeFiles\raylib.dir\rtext.c.obj.d -o CMakeFiles\raylib.dir\rtext.c.obj -c C:\two_buttons\libs\raylib-4.1\src\rtext.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/rtext.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\rtext.c > CMakeFiles\raylib.dir\rtext.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\rtext.c > CMakeFiles\raylib.dir\rtext.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/rtext.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\rtext.c -o CMakeFiles\raylib.dir\rtext.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\rtext.c -o CMakeFiles\raylib.dir\rtext.c.s
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/rtextures.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C:/two_buttons/libs/raylib-4.1/src/rtextures.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj -MF CMakeFiles\raylib.dir\rtextures.c.obj.d -o CMakeFiles\raylib.dir\rtextures.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\rtextures.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj -MF CMakeFiles\raylib.dir\rtextures.c.obj.d -o CMakeFiles\raylib.dir\rtextures.c.obj -c C:\two_buttons\libs\raylib-4.1\src\rtextures.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/rtextures.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\rtextures.c > CMakeFiles\raylib.dir\rtextures.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\rtextures.c > CMakeFiles\raylib.dir\rtextures.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/rtextures.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\rtextures.c -o CMakeFiles\raylib.dir\rtextures.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\rtextures.c -o CMakeFiles\raylib.dir\rtextures.c.s
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/utils.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj: C:/two_buttons/libs/raylib-4.1/src/utils.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj -MF CMakeFiles\raylib.dir\utils.c.obj.d -o CMakeFiles\raylib.dir\utils.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj -MF CMakeFiles\raylib.dir\utils.c.obj.d -o CMakeFiles\raylib.dir\utils.c.obj -c C:\two_buttons\libs\raylib-4.1\src\utils.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/utils.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\utils.c > CMakeFiles\raylib.dir\utils.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\utils.c > CMakeFiles\raylib.dir\utils.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/utils.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\utils.c -o CMakeFiles\raylib.dir\utils.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\utils.c -o CMakeFiles\raylib.dir\utils.c.s
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/flags.make
 libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: H:/Two_buttons_game/libs/raylib-4.1/src/raudio.c
+libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C:/two_buttons/libs/raylib-4.1/src/raudio.c
 libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: libs/raylib/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj -MF CMakeFiles\raylib.dir\raudio.c.obj.d -o CMakeFiles\raylib.dir\raudio.c.obj -c H:\Two_buttons_game\libs\raylib-4.1\src\raudio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj -MF CMakeFiles\raylib.dir\raudio.c.obj.d -o CMakeFiles\raylib.dir\raudio.c.obj -c C:\two_buttons\libs\raylib-4.1\src\raudio.c
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raylib.dir/raudio.c.i"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Two_buttons_game\libs\raylib-4.1\src\raudio.c > CMakeFiles\raylib.dir\raudio.c.i
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\two_buttons\libs\raylib-4.1\src\raudio.c > CMakeFiles\raylib.dir\raudio.c.i
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raylib.dir/raudio.c.s"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && C:\ProgramData\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Two_buttons_game\libs\raylib-4.1\src\raudio.c -o CMakeFiles\raylib.dir\raudio.c.s
+	cd /d C:\two_buttons\build\libs\raylib\raylib && C:\CppCamp\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\two_buttons\libs\raylib-4.1\src\raudio.c -o CMakeFiles\raylib.dir\raudio.c.s
 
 # Object files for target raylib
 raylib_OBJECTS = \
@@ -185,21 +185,21 @@ raylib_OBJECTS = \
 
 # External object files for target raylib
 raylib_EXTERNAL_OBJECTS = \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj" \
-"H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj" \
+"C:/two_buttons/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 
 libs/raylib/raylib/libraylib.a: libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj
 libs/raylib/raylib/libraylib.a: libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj
@@ -225,19 +225,19 @@ libs/raylib/raylib/libraylib.a: libs/raylib/raylib/external/glfw/src/CMakeFiles/
 libs/raylib/raylib/libraylib.a: libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
 libs/raylib/raylib/libraylib.a: libs/raylib/raylib/CMakeFiles/raylib.dir/build.make
 libs/raylib/raylib/libraylib.a: libs/raylib/raylib/CMakeFiles/raylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libraylib.a"
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && $(CMAKE_COMMAND) -P CMakeFiles\raylib.dir\cmake_clean_target.cmake
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\raylib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libraylib.a"
+	cd /d C:\two_buttons\build\libs\raylib\raylib && $(CMAKE_COMMAND) -P CMakeFiles\raylib.dir\cmake_clean_target.cmake
+	cd /d C:\two_buttons\build\libs\raylib\raylib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\raylib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/raylib/raylib/CMakeFiles/raylib.dir/build: libs/raylib/raylib/libraylib.a
 .PHONY : libs/raylib/raylib/CMakeFiles/raylib.dir/build
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/clean:
-	cd /d H:\Two_buttons_game\build\libs\raylib\raylib && $(CMAKE_COMMAND) -P CMakeFiles\raylib.dir\cmake_clean.cmake
+	cd /d C:\two_buttons\build\libs\raylib\raylib && $(CMAKE_COMMAND) -P CMakeFiles\raylib.dir\cmake_clean.cmake
 .PHONY : libs/raylib/raylib/CMakeFiles/raylib.dir/clean
 
 libs/raylib/raylib/CMakeFiles/raylib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\Two_buttons_game H:\Two_buttons_game\libs\raylib-4.1\src H:\Two_buttons_game\build H:\Two_buttons_game\build\libs\raylib\raylib H:\Two_buttons_game\build\libs\raylib\raylib\CMakeFiles\raylib.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\two_buttons C:\two_buttons\libs\raylib-4.1\src C:\two_buttons\build C:\two_buttons\build\libs\raylib\raylib C:\two_buttons\build\libs\raylib\raylib\CMakeFiles\raylib.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/raylib/raylib/CMakeFiles/raylib.dir/depend
 

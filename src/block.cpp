@@ -8,8 +8,9 @@ float Block::countingDist(Vector2 posPlayer){
     return d;      
 }
 
-Block::Block(Texture2D tex, Vector2 position, Vector2 siz){
+Block::Block(Texture2D tex, Vector2 position, Vector2 siz, bool Type){
     texture = tex;
     pos = position;
     size = siz;
+    type = Type;
 }

@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "H:/Two_buttons_game/libs/raylib-4.1/src/raudio.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj.d"
-  "H:/Two_buttons_game/libs/raylib-4.1/src/rcore.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj.d"
-  "H:/Two_buttons_game/libs/raylib-4.1/src/rmodels.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj.d"
-  "H:/Two_buttons_game/libs/raylib-4.1/src/rshapes.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj.d"
-  "H:/Two_buttons_game/libs/raylib-4.1/src/rtext.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj.d"
-  "H:/Two_buttons_game/libs/raylib-4.1/src/rtextures.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj.d"
-  "H:/Two_buttons_game/libs/raylib-4.1/src/utils.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/raudio.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/rcore.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/rmodels.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/rshapes.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/rtext.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/rtextures.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj.d"
+  "C:/two_buttons/libs/raylib-4.1/src/utils.c" "libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj" "gcc" "libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

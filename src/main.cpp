@@ -1,8 +1,7 @@
 #include <string>
 #include <iostream>
-#include <vector>
 #include <raylib.h>
-#include "block.hpp"
+#include "player.hpp"//vector, block.hpp are inside
 
 using namespace std;
 
@@ -22,12 +21,12 @@ void creatingMap(vector<vector<Block>> &playMap, int size, Texture2D texWall, Te
         {
             if (GetImageColor(schema, j, i).r == 0)
             {
-                Block w(texWall, {float(j * size), float(i * size)}, {float(size), float(size)});
+                Block w(texWall, /*pos*/{float(j * size), float(i * size)}, /*size*/{float(size), float(size)}, true);
                 playMap[i].push_back(w);
             }
             else
             {
-                Block f(texFloor, {float(j * size), float(i * size)}, {float(size), float(size)});
+                Block f(texFloor, {float(j * size), float(i * size)}, {float(size), float(size)}, false);
                 playMap[i].push_back(f);
             }
         }
@@ -36,29 +35,36 @@ void creatingMap(vector<vector<Block>> &playMap, int size, Texture2D texWall, Te
 }
 
 int main()
-{
-
+{   
+    //variables---------------------------------------------------
     Color warmColor = {179, 148, 74, 255};
-    Vector2 size = {50, 50};
 
     const int screenWidth = 1250;
     const int screenHeight = 1050;
 
     InitWindow(screenWidth, screenHeight, "Cool game");
 
-    Texture2D wall = LoadTexture("../wallTexture.png");
-    Texture2D floor = LoadTexture("../floorTexture.png");
+    Texture2D wallTex = LoadTexture("../wallTexture.png");
+    Texture2D floorTex = LoadTexture("../floorTexture.png");
+    Texture2D playerTex = LoadTexture("../playerTexture.png");
     Image schema = LoadImage("../LabirintSchema.png");
+    Vector2 blockSize = {50, 50};
 
     vector<vector<Block>> mapPlaying;
-    creatingMap(mapPlaying, size.x, wall, floor, schema);
+    creatingMap(mapPlaying, blockSize.x, wallTex, floorTex, schema);
+    //---------------------------------------------------------------
+    Player player({50, 50}, 3, playerTex);
 
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
-    {
+    {   
+        player.moving();
+
         BeginDrawing();
         ClearBackground(WHITE);
+
+        // Drawing map------------------------------------------------------
         for (int i = 0; i < mapPlaying.size(); i++)
         {
             for (int j = 0; j < mapPlaying[i].size(); j++)
@@ -66,7 +72,9 @@ int main()
                 DrawTextureEx(mapPlaying[i][j].texture, mapPlaying[i][j].pos, 0.f, 0.05, WHITE);
             }
         }
+        //---------------------------------------------------------------------
 
+        player.animaDrawing();
         EndDrawing();
     }
     CloseWindow();

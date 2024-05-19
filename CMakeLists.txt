@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 file(GLOB SOURCES src/*.cpp)
 
-file(GLOB HEADERS src/*.h)
+file(GLOB HEADERS src/*.hpp)
 
 add_executable(RayLibTemplate ${SOURCES} ${HEADERS})
 # Setting parameters for raylib
