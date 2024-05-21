@@ -52,10 +52,10 @@ RM = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Common
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\two_buttons
+CMAKE_SOURCE_DIR = H:\Two_buttons_game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\two_buttons\build
+CMAKE_BINARY_DIR = H:\Two_buttons_game\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RayLibTemplate.dir/depend.make
@@ -70,48 +70,48 @@ include CMakeFiles/RayLibTemplate.dir/flags.make
 
 CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj: CMakeFiles/RayLibTemplate.dir/flags.make
 CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj: CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp
-CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj: C:/two_buttons/src/block.cpp
+CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj: H:/Two_buttons_game/src/block.cpp
 CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj: CMakeFiles/RayLibTemplate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj -MF CMakeFiles\RayLibTemplate.dir\src\block.cpp.obj.d -o CMakeFiles\RayLibTemplate.dir\src\block.cpp.obj -c C:\two_buttons\src\block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj -MF CMakeFiles\RayLibTemplate.dir\src\block.cpp.obj.d -o CMakeFiles\RayLibTemplate.dir\src\block.cpp.obj -c H:\Two_buttons_game\src\block.cpp
 
 CMakeFiles/RayLibTemplate.dir/src/block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayLibTemplate.dir/src/block.cpp.i"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\two_buttons\src\block.cpp > CMakeFiles\RayLibTemplate.dir\src\block.cpp.i
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Two_buttons_game\src\block.cpp > CMakeFiles\RayLibTemplate.dir\src\block.cpp.i
 
 CMakeFiles/RayLibTemplate.dir/src/block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayLibTemplate.dir/src/block.cpp.s"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\two_buttons\src\block.cpp -o CMakeFiles\RayLibTemplate.dir\src\block.cpp.s
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Two_buttons_game\src\block.cpp -o CMakeFiles\RayLibTemplate.dir\src\block.cpp.s
 
 CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj: CMakeFiles/RayLibTemplate.dir/flags.make
 CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj: CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp
-CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj: C:/two_buttons/src/main.cpp
+CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj: H:/Two_buttons_game/src/main.cpp
 CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj: CMakeFiles/RayLibTemplate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj -MF CMakeFiles\RayLibTemplate.dir\src\main.cpp.obj.d -o CMakeFiles\RayLibTemplate.dir\src\main.cpp.obj -c C:\two_buttons\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj -MF CMakeFiles\RayLibTemplate.dir\src\main.cpp.obj.d -o CMakeFiles\RayLibTemplate.dir\src\main.cpp.obj -c H:\Two_buttons_game\src\main.cpp
 
 CMakeFiles/RayLibTemplate.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayLibTemplate.dir/src/main.cpp.i"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\two_buttons\src\main.cpp > CMakeFiles\RayLibTemplate.dir\src\main.cpp.i
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Two_buttons_game\src\main.cpp > CMakeFiles\RayLibTemplate.dir\src\main.cpp.i
 
 CMakeFiles/RayLibTemplate.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayLibTemplate.dir/src/main.cpp.s"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\two_buttons\src\main.cpp -o CMakeFiles\RayLibTemplate.dir\src\main.cpp.s
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Two_buttons_game\src\main.cpp -o CMakeFiles\RayLibTemplate.dir\src\main.cpp.s
 
 CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj: CMakeFiles/RayLibTemplate.dir/flags.make
 CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj: CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp
-CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj: C:/two_buttons/src/player.cpp
+CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj: H:/Two_buttons_game/src/player.cpp
 CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj: CMakeFiles/RayLibTemplate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj -MF CMakeFiles\RayLibTemplate.dir\src\player.cpp.obj.d -o CMakeFiles\RayLibTemplate.dir\src\player.cpp.obj -c C:\two_buttons\src\player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj -MF CMakeFiles\RayLibTemplate.dir\src\player.cpp.obj.d -o CMakeFiles\RayLibTemplate.dir\src\player.cpp.obj -c H:\Two_buttons_game\src\player.cpp
 
 CMakeFiles/RayLibTemplate.dir/src/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayLibTemplate.dir/src/player.cpp.i"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\two_buttons\src\player.cpp > CMakeFiles\RayLibTemplate.dir\src\player.cpp.i
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Two_buttons_game\src\player.cpp > CMakeFiles\RayLibTemplate.dir\src\player.cpp.i
 
 CMakeFiles/RayLibTemplate.dir/src/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayLibTemplate.dir/src/player.cpp.s"
-	C:\CppCamp\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\two_buttons\src\player.cpp -o CMakeFiles\RayLibTemplate.dir\src\player.cpp.s
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Two_buttons_game\src\player.cpp -o CMakeFiles\RayLibTemplate.dir\src\player.cpp.s
 
 # Object files for target RayLibTemplate
 RayLibTemplate_OBJECTS = \
@@ -131,7 +131,7 @@ RayLibTemplate.exe: libs/raylib/raylib/external/glfw/src/libglfw3.a
 RayLibTemplate.exe: CMakeFiles/RayLibTemplate.dir/linkLibs.rsp
 RayLibTemplate.exe: CMakeFiles/RayLibTemplate.dir/objects1.rsp
 RayLibTemplate.exe: CMakeFiles/RayLibTemplate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\two_buttons\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RayLibTemplate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\Two_buttons_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RayLibTemplate.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RayLibTemplate.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/RayLibTemplate.dir/clean:
 .PHONY : CMakeFiles/RayLibTemplate.dir/clean
 
 CMakeFiles/RayLibTemplate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\two_buttons C:\two_buttons C:\two_buttons\build C:\two_buttons\build C:\two_buttons\build\CMakeFiles\RayLibTemplate.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\Two_buttons_game H:\Two_buttons_game H:\Two_buttons_game\build H:\Two_buttons_game\build H:\Two_buttons_game\build\CMakeFiles\RayLibTemplate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RayLibTemplate.dir/depend
 

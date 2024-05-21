@@ -1,1 +1,1 @@
--I"C:/two_buttons/libs/raylib-4.1/src" -isystem "C:/two_buttons/libs/raylib-4.1/src/external/glfw/include"
+-I"H:/Two_buttons_game/libs/raylib-4.1/src" -isystem "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/include"

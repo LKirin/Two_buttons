@@ -2,19 +2,24 @@
 #include "block.hpp"
 #include <vector>
 
+using namespace std;
+
 class Player
 {
 public:
     Player(Vector2 position, int Speed, Texture2D tex);
 
     Vector2 pos;
-    Vector2 playerSize = {40, 40};
+    Vector2 playerSize = {30, 30};
     int speed;
     int numberInImage = 0;
-    int direction = 0;//0 - backward
+    int direction = 0;
 
     Texture2D texture;
 
-    void moving();
-    void animaDrawing();
+    void moving(vector<vector<Block>>& walls);
+    void animaDrawing(float kLight, Color WARM);
+
+private:
+    bool checkCollision(vector<vector<Block>>& walls, Vector2 speed);
 };
