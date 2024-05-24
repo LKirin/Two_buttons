@@ -1,158 +1,158 @@
 [
 {
-  "directory": "C:/two_buttons/build",
-  "command": "C:\\CppCamp\\MinGW\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\block.cpp.obj -c C:\\two_buttons\\src\\block.cpp",
-  "file": "C:/two_buttons/src/block.cpp",
+  "directory": "H:/Two_buttons_game/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\block.cpp.obj -c H:\\Two_buttons_game\\src\\block.cpp",
+  "file": "H:/Two_buttons_game/src/block.cpp",
   "output": "CMakeFiles/RayLibTemplate.dir/src/block.cpp.obj"
 },
 {
-  "directory": "C:/two_buttons/build",
-  "command": "C:\\CppCamp\\MinGW\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\button.cpp.obj -c C:\\two_buttons\\src\\button.cpp",
-  "file": "C:/two_buttons/src/button.cpp",
+  "directory": "H:/Two_buttons_game/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\button.cpp.obj -c H:\\Two_buttons_game\\src\\button.cpp",
+  "file": "H:/Two_buttons_game/src/button.cpp",
   "output": "CMakeFiles/RayLibTemplate.dir/src/button.cpp.obj"
 },
 {
-  "directory": "C:/two_buttons/build",
-  "command": "C:\\CppCamp\\MinGW\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\main.cpp.obj -c C:\\two_buttons\\src\\main.cpp",
-  "file": "C:/two_buttons/src/main.cpp",
+  "directory": "H:/Two_buttons_game/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\main.cpp.obj -c H:\\Two_buttons_game\\src\\main.cpp",
+  "file": "H:/Two_buttons_game/src/main.cpp",
   "output": "CMakeFiles/RayLibTemplate.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/two_buttons/build",
-  "command": "C:\\CppCamp\\MinGW\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\player.cpp.obj -c C:\\two_buttons\\src\\player.cpp",
-  "file": "C:/two_buttons/src/player.cpp",
+  "directory": "H:/Two_buttons_game/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/RayLibTemplate.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RayLibTemplate.dir\\src\\player.cpp.obj -c H:\\Two_buttons_game\\src\\player.cpp",
+  "file": "H:/Two_buttons_game/src/player.cpp",
   "output": "CMakeFiles/RayLibTemplate.dir/src/player.cpp.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\rcore.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/rcore.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rcore.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\rcore.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/rcore.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rmodels.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\rmodels.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/rmodels.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rmodels.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\rmodels.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/rmodels.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rshapes.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\rshapes.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/rshapes.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rshapes.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\rshapes.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/rshapes.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rtext.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\rtext.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/rtext.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rtext.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\rtext.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/rtext.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rtextures.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\rtextures.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/rtextures.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rtextures.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\rtextures.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/rtextures.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\utils.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\utils.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/utils.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\utils.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\utils.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/utils.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\raudio.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\raudio.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/raudio.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\raudio.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\raudio.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/raudio.c",
   "output": "libs/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\context.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/context.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\context.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/context.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\init.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/init.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\init.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/init.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\input.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/input.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\input.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/input.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\monitor.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/monitor.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\monitor.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/monitor.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\vulkan.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/vulkan.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\vulkan.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/vulkan.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\window.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/window.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\window.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/window.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_init.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/win32_init.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_init.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/win32_init.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_joystick.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/win32_joystick.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_joystick.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/win32_joystick.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_monitor.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/win32_monitor.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_monitor.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/win32_monitor.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_time.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/win32_time.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_time.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/win32_time.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_thread.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/win32_thread.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_thread.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/win32_thread.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_window.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/win32_window.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\win32_window.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/win32_window.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\wgl_context.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/wgl_context.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\wgl_context.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/wgl_context.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\egl_context.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/egl_context.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\egl_context.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/egl_context.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
 },
 {
-  "directory": "C:/two_buttons/build/libs/raylib/raylib/external/glfw/src",
-  "command": "C:\\CppCamp\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\two_buttons\\libs\\raylib-4.1\\src\\external\\glfw\\src\\osmesa_context.c",
-  "file": "C:/two_buttons/libs/raylib-4.1/src/external/glfw/src/osmesa_context.c",
+  "directory": "H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/src",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c H:\\Two_buttons_game\\libs\\raylib-4.1\\src\\external\\glfw\\src\\osmesa_context.c",
+  "file": "H:/Two_buttons_game/libs/raylib-4.1/src/external/glfw/src/osmesa_context.c",
   "output": "libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 }
 ]

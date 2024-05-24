@@ -48,13 +48,13 @@ enum State
     preGame,
     game,
     victory,
-    defeat
+    defeat,
+    pause
 };
 
 int main()
 {
     // variables---------------------------------------------------
-
     State state;
     state = preGame;
 
@@ -69,6 +69,7 @@ int main()
 
     Music music = LoadMusicStream("../cavernMusic.mp3");
     music.looping = false;
+    int oneSecondPassed = 0;
 
     Texture2D wallTex = LoadTexture("../wallTexture.png");
     Texture2D floorTex = LoadTexture("../floorTexture.png");
@@ -88,191 +89,253 @@ int main()
     creatingMap(gameMap, blockSize.x, wallTex, floorTex, schema);
     //--------------------------------------------------------------------
 
+    Player player({55, 55}, 3, playerTex);
+    double remainTime = 80.0;
+    Button blueButton(gameMap);
+    Button redButton(gameMap);
+
     SetTargetFPS(60);
 
-
-    // PreGame------------------------------------------------------------
-    if (state == preGame)
+    while (true)
     {
-        while (true)
+        // PreGame------------------------------------------------------------
+        if (state == preGame)
         {
-            //-------------------------
-            if (WindowShouldClose())
+            while (true)
             {
-                CloseWindow();
-            }
-            //------------------------
-
-            // changing state
-            if (IsKeyPressed(KEY_ENTER))
-            {
-                state = game;
-                break;
-            }
-
-            BeginDrawing();
-            ClearBackground(BLACK);
-
-            string preGameText = "Press Enter to start";
-            DrawText(preGameText.c_str(), screenWidth / 2 - 240, screenHeight / 2 - 100, 50, {200, 200, 200, 255});
-
-            EndDrawing();
-        }
-    }
-    //--------------------------------------------------------------------
-
-    // Game---------------------------------------------------------------
-    if (state == game)
-    {
-        Button blueButton(gameMap);
-        Button redButton(gameMap);
-
-        double remainTime = 80.0;
-
-        Player player({55, 55}, 3, playerTex);
-
-        PlayMusicStream(music);
-        while (true)
-        {
-            UpdateMusicStream(music);
-
-            //--------------------------
-            if (WindowShouldClose())
-            {
-                CloseWindow();
-                UnloadMusicStream(music);
-                CloseAudioDevice();
-            }
-            //------------------------
-
-            // changing state
-            if (remainTime <= 0)
-            {
-                state = defeat;
-                StopMusicStream(music);
-
-                break;
-            }
-            if (blueButton.isPressed && redButton.isPressed)
-            {
-                state = victory;
-                StopMusicStream(music);
-
-                break;
-            }
-
-            remainTime -= GetTime() / 1000;
-
-            player.moving(gameMap);
-
-            blueButton.pressButton(player.pos);
-            redButton.pressButton(player.pos);
-
-            BeginDrawing();
-            ClearBackground(WHITE);
-
-            // Drawing map------------------------------------------------------
-            for (int i = 0; i < gameMap.size(); i++)
-            {
-                for (int j = 0; j < gameMap[i].size(); j++)
+                //-------------------------
+                if (WindowShouldClose())
                 {
-                    if (gameMap[i][j].type)
-                    {
-                        DrawTextureEx(gameMap[i][j].texture, gameMap[i][j].pos, 0.f, 0.05, colorMultiply(warmColor, 0.5 / (kLightning * gameMap[i][j].countingDist(player.pos))));
-                    }
-                    else
-                    {
-                        DrawTextureEx(gameMap[i][j].texture, gameMap[i][j].pos, 0.f, 0.05, colorMultiply(warmColor, 1 / (kLightning * gameMap[i][j].countingDist(player.pos))));
-                        // Drawing buttons
-                        DrawTextureEx(blueButtonTex, blueButton.position, 0.f, 0.7, colorMultiply(warmColor, 1 / (kLightning * blueButton.countingDist(player.pos))));
-                        DrawTextureEx(redButtonTex, redButton.position, 0.f, 0.7, colorMultiply(warmColor, 1 / (kLightning * redButton.countingDist(player.pos))));
-                    }
+                    CloseWindow();
                 }
-            }
-            //---------------------------------------------------------------------
+                //------------------------
 
-            player.animaDrawing(warmColor);
+                // changing state
+                if (IsKeyPressed(KEY_ENTER))
+                {
+                    state = game;
+                    break;
+                }
 
-            if (!blueButton.isPressed)
-            {
-                DrawTextureV(blueIndecatorTex, {screenWidth - 100, 5}, WHITE);
-            }
-            if (!redButton.isPressed)
-            {
-                DrawTextureV(redIndecatorTex, {screenWidth - 160, 5}, WHITE);
-            }
+                BeginDrawing();
+                ClearBackground(BLACK);
 
-            // Draw remain time
-            if (remainTime > 10)
-            {
-                DrawText(to_string(int(remainTime)).c_str(), screenWidth - 230, 5, 20, {200, 200, 200, 255});
+                string preGameText = "Press Enter to start";
+                DrawText(preGameText.c_str(), screenWidth / 2 - 240, screenHeight / 2 - 100, 50, {200, 200, 200, 255});
+
+                EndDrawing();
             }
+        }
+        //--------------------------------------------------------------------
+
+        // Game---------------------------------------------------------------
+        if (state == game)
+        {
+            // resume music
+            if (GetMusicTimePlayed(music) > 0 && GetMusicTimePlayed(music) < 80)
+            {
+                ResumeMusicStream(music);
+            }
+            // regeneration
             else
             {
-                DrawText(to_string(remainTime).c_str(), screenWidth - 250, 5, 20, {255, 120, 110, 255});
+                Button blueButton(gameMap);
+                Button redButton(gameMap);
+                PlayMusicStream(music);
+                remainTime = 80.0;
+                Player player({55, 55}, 3, playerTex);
             }
 
-            EndDrawing();
+            while (true)
+            {
+                UpdateMusicStream(music);
+
+                //--------------------------
+                if (WindowShouldClose())
+                {
+                    CloseWindow();
+                    UnloadMusicStream(music);
+                    CloseAudioDevice();
+                }
+                //------------------------
+
+                // changing state
+                if (remainTime <= 0)
+                {
+                    state = defeat;
+                    StopMusicStream(music);
+
+                    break;
+                }
+                if (blueButton.isPressed && redButton.isPressed)
+                {
+                    state = victory;
+                    StopMusicStream(music);
+                    break;
+                }
+
+                if (IsKeyPressed(KEY_P))
+                {
+                    state = pause;
+                    PauseMusicStream(music);
+                    break;
+                }
+
+                if (oneSecondPassed > 60)
+                {
+                    remainTime -= 1;
+                    oneSecondPassed = 0;
+                }
+
+                player.moving(gameMap);
+
+                blueButton.pressButton(player.pos);
+                redButton.pressButton(player.pos);
+
+                BeginDrawing();
+                ClearBackground(WHITE);
+
+                // Drawing map------------------------------------------------------
+                for (int i = 0; i < gameMap.size(); i++)
+                {
+                    for (int j = 0; j < gameMap[i].size(); j++)
+                    {
+                        if (gameMap[i][j].type)
+                        {
+                            DrawTextureEx(gameMap[i][j].texture, gameMap[i][j].pos, 0.f, 0.05, colorMultiply(warmColor, 0.5 / (kLightning * gameMap[i][j].countingDist(player.pos))));
+                        }
+                        else
+                        {
+                            DrawTextureEx(gameMap[i][j].texture, gameMap[i][j].pos, 0.f, 0.05, colorMultiply(warmColor, 1 / (kLightning * gameMap[i][j].countingDist(player.pos))));
+                            // Drawing buttons
+                            DrawTextureEx(blueButtonTex, blueButton.position, 0.f, 0.7, colorMultiply(warmColor, 1 / (kLightning * blueButton.countingDist(player.pos))));
+                            DrawTextureEx(redButtonTex, redButton.position, 0.f, 0.7, colorMultiply(warmColor, 1 / (kLightning * redButton.countingDist(player.pos))));
+                        }
+                    }
+                }
+                //---------------------------------------------------------------------
+
+                player.animaDrawing(warmColor);
+
+                if (!blueButton.isPressed)
+                {
+                    DrawTextureV(blueIndecatorTex, {screenWidth - 100, 5}, WHITE);
+                }
+                if (!redButton.isPressed)
+                {
+                    DrawTextureV(redIndecatorTex, {screenWidth - 160, 5}, WHITE);
+                }
+
+                // Draw remain time
+                if (remainTime > 10)
+                {
+                    DrawText(to_string(int(remainTime)).c_str(), screenWidth - 230, 5, 20, {200, 200, 200, 255});
+                }
+                else
+                {
+                    DrawText(to_string(remainTime).c_str(), screenWidth - 250, 5, 20, {255, 120, 110, 255});
+                }
+
+                EndDrawing();
+
+                oneSecondPassed++;
+            }
         }
-    }
-    //--------------------------------------------------------------------
+        //--------------------------------------------------------------------
 
-    //Victory-------------------------------------------------------------
-    if (state == victory)
-    {
-        while (true)
+        // Victory-------------------------------------------------------------
+        if (state == victory)
         {
-            //-------------------------
-            if (WindowShouldClose())
+            while (true)
             {
-                CloseWindow();
+                //-------------------------
+                if (WindowShouldClose())
+                {
+                    CloseWindow();
+                }
+                //------------------------
+
+                // changing state
+                if (IsKeyPressed(KEY_ENTER))
+                {
+                    state = game;
+                    break;
+                }
+
+                BeginDrawing();
+                ClearBackground(BLACK);
+
+                string preGameText = "\t\tYou are won!\nPress Enter to restart";
+                DrawText(preGameText.c_str(), screenWidth / 2 - 250, screenHeight / 2 - 100, 50, {255, 223, 0, 255});
+
+                EndDrawing();
             }
-            //------------------------
-
-            // changing state
-            if (IsKeyPressed(KEY_ENTER))
-            {
-                state = game;
-                break;
-            }
-
-            BeginDrawing();
-            ClearBackground(BLACK);
-
-            string preGameText = "You are won!\nPress Enter";
-            DrawText(preGameText.c_str(), screenWidth / 2 - 240, screenHeight / 2 - 100, 50, {255, 223, 0, 255});
-
-            EndDrawing();
         }
-    }
-    //--------------------------------------------------------------------
+        //--------------------------------------------------------------------
 
-    //defeat--------------------------------------------------------------
-    if (state == defeat)
-    {
-        while (true)
+        // defeat--------------------------------------------------------------
+        if (state == defeat)
         {
-            //-------------------------
-            if (WindowShouldClose())
+            while (true)
             {
-                CloseWindow();
-            }
-            //------------------------
+                //-------------------------
+                if (WindowShouldClose())
+                {
+                    CloseWindow();
+                }
+                //------------------------
 
-            // changing state
-            if (IsKeyPressed(KEY_ENTER))
+                // changing state
+                if (IsKeyPressed(KEY_ENTER))
+                {
+                    state = game;
+                    break;
+                }
+
+                BeginDrawing();
+                ClearBackground(BLACK);
+
+                string preGameText = "\t\t\tGAME OVER\nPress Enter to restart";
+                DrawText(preGameText.c_str(), screenWidth / 2 - 250, screenHeight / 2 - 100, 50, {200, 15, 5, 255});
+
+                EndDrawing();
+            }
+        }
+        //----------------------------------------------------------------------
+
+        if (state == pause)
+        {
+            Image screenImage = LoadImageFromScreen();
+            Texture2D screenTex = LoadTextureFromImage(screenImage);
+
+            while (true)
             {
-                state = game;
-                break;
+                //-------------------------
+                if (WindowShouldClose())
+                {
+                    CloseWindow();
+                }
+                //------------------------
+
+                // changing state
+                if (IsKeyPressed(KEY_ENTER))
+                {
+                    state = game;
+                    UnloadImage(screenImage);
+                    UnloadTexture(screenTex);
+                    break;
+                }
+
+                BeginDrawing();
+                ClearBackground(BLACK);
+
+                DrawTextureV(screenTex, {0, 0}, {100, 100, 100, 255});
+
+                string preGameText = "Press Enter to resume";
+                DrawText(preGameText.c_str(), screenWidth / 2 - 250, screenHeight / 2 - 100, 50, {200, 200, 200, 255});
+
+                EndDrawing();
             }
-
-            BeginDrawing();
-            ClearBackground(BLACK);
-
-            string preGameText = "Oh you defeated...\nPress Enter";
-            DrawText(preGameText.c_str(), screenWidth / 2 - 240, screenHeight / 2 - 100, 50, {200, 15, 5, 255});
-
-            EndDrawing();
         }
     }
 }
