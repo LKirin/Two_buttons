@@ -1,6 +1,8 @@
 #include <vector>
 #include <raylib.h>
 
+#ifndef BLOCK_HPP
+#define BLOCK_HPP
 class Block{
     public:
     Block(Texture2D tex, Vector2 position, Vector2 siz, bool Type);
@@ -11,3 +13,4 @@ class Block{
     Vector2 size = {50, 50};
     float countingDist(Vector2 posPlayer);
 };
+#endif

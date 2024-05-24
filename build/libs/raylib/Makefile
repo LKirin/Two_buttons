@@ -56,10 +56,10 @@ RM = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Common
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Two_buttons_game
+CMAKE_SOURCE_DIR = C:\two_buttons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Two_buttons_game\build
+CMAKE_BINARY_DIR = C:\two_buttons\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = H:\Two_buttons_game\build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d H:\Two_buttons_game\build && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\two_buttons\build && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d H:\Two_buttons_game\build && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake H:/Two_buttons_game/build/CPackSourceConfig.cmake
+	cd /d C:\two_buttons\build && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/two_buttons/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d H:\Two_buttons_game\build && $(CMAKE_COMMAND) -E cmake_progress_start H:\Two_buttons_game\build\CMakeFiles H:\Two_buttons_game\build\libs\raylib\\CMakeFiles\progress.marks
-	cd /d H:\Two_buttons_game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Two_buttons_game\build\CMakeFiles 0
+	cd /d C:\two_buttons\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\two_buttons\build\CMakeFiles C:\two_buttons\build\libs\raylib\\CMakeFiles\progress.marks
+	cd /d C:\two_buttons\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\two_buttons\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d H:\Two_buttons_game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/clean
+	cd /d C:\two_buttons\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,17 +167,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d H:\Two_buttons_game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/preinstall
+	cd /d C:\two_buttons\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d H:\Two_buttons_game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/preinstall
+	cd /d C:\two_buttons\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/raylib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d H:\Two_buttons_game\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\two_buttons\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d H:\Two_buttons_game\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\two_buttons\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

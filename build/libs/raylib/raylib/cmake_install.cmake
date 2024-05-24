@@ -1,4 +1,4 @@
-# Install script for directory: H:/Two_buttons_game/libs/raylib-4.1/src
+# Install script for directory: C:/two_buttons/libs/raylib-4.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,37 +34,37 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ProgramData/mingw64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/CppCamp/MinGW/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/Two_buttons_game/build/libs/raylib/raylib/libraylib.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/two_buttons/build/libs/raylib/raylib/libraylib.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "H:/Two_buttons_game/libs/raylib-4.1/src/raylib.h"
-    "H:/Two_buttons_game/libs/raylib-4.1/src/rlgl.h"
-    "H:/Two_buttons_game/libs/raylib-4.1/src/raymath.h"
-    "H:/Two_buttons_game/libs/raylib-4.1/src/raudio.h"
+    "C:/two_buttons/libs/raylib-4.1/src/raylib.h"
+    "C:/two_buttons/libs/raylib-4.1/src/rlgl.h"
+    "C:/two_buttons/libs/raylib-4.1/src/raymath.h"
+    "C:/two_buttons/libs/raylib-4.1/src/raudio.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "H:/Two_buttons_game/build/libs/raylib/raylib/raylib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/two_buttons/build/libs/raylib/raylib/raylib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "H:/Two_buttons_game/build/libs/raylib/raylib/raylib-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/two_buttons/build/libs/raylib/raylib/raylib-config-version.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "H:/Two_buttons_game/libs/raylib-4.1/src/../cmake/raylib-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/two_buttons/libs/raylib-4.1/src/../cmake/raylib-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Two_buttons_game/build/libs/raylib/raylib/external/glfw/cmake_install.cmake")
+  include("C:/two_buttons/build/libs/raylib/raylib/external/glfw/cmake_install.cmake")
 
 endif()
 

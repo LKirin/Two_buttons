@@ -18,7 +18,7 @@ public:
     Texture2D texture;
 
     void moving(vector<vector<Block>>& walls);
-    void animaDrawing(float kLight, Color WARM);
+    void animaDrawing(Color WARM);
 
 private:
     bool checkCollision(vector<vector<Block>>& walls, Vector2 speed);

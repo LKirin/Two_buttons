@@ -56,10 +56,10 @@ RM = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Common
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Two_buttons_game
+CMAKE_SOURCE_DIR = C:\two_buttons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Two_buttons_game\build
+CMAKE_BINARY_DIR = C:\two_buttons\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake H:/Two_buttons_game/build/CPackSourceConfig.cmake
+	"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/two_buttons/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,9 +151,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Two_buttons_game\build\CMakeFiles H:\Two_buttons_game\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\two_buttons\build\CMakeFiles C:\two_buttons\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Two_buttons_game\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\two_buttons\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -243,6 +243,30 @@ src/block.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayLibTemplate.dir\build.make CMakeFiles/RayLibTemplate.dir/src/block.cpp.s
 .PHONY : src/block.cpp.s
 
+src/button.obj: src/button.cpp.obj
+.PHONY : src/button.obj
+
+# target to build an object file
+src/button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayLibTemplate.dir\build.make CMakeFiles/RayLibTemplate.dir/src/button.cpp.obj
+.PHONY : src/button.cpp.obj
+
+src/button.i: src/button.cpp.i
+.PHONY : src/button.i
+
+# target to preprocess a source file
+src/button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayLibTemplate.dir\build.make CMakeFiles/RayLibTemplate.dir/src/button.cpp.i
+.PHONY : src/button.cpp.i
+
+src/button.s: src/button.cpp.s
+.PHONY : src/button.s
+
+# target to generate assembly for a file
+src/button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayLibTemplate.dir\build.make CMakeFiles/RayLibTemplate.dir/src/button.cpp.s
+.PHONY : src/button.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -311,6 +335,9 @@ help:
 	@echo ... src/block.obj
 	@echo ... src/block.i
 	@echo ... src/block.s
+	@echo ... src/button.obj
+	@echo ... src/button.i
+	@echo ... src/button.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

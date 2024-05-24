@@ -83,8 +83,8 @@ void Player::moving(vector<vector<Block>>& walls)
     }
 }
 
-void Player::animaDrawing(float kLight, Color WARM)
+void Player::animaDrawing(Color WARM)
 {
     DrawTexturePro(texture, {float((numberInImage / 2) * 118), float(direction * 120), 118.f, 120.f}, 
-    {pos.x, pos.y, playerSize.x + 10, playerSize.y + 10}, {0, 0}, 0, {WARM.r / kLight, WARM.g / kLight, WARM.b / kLight, 255});
+    {pos.x, pos.y, playerSize.x + 10, playerSize.y + 10}, {0, 0}, 0, WARM);
 }

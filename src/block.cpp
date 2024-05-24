@@ -1,14 +1,22 @@
 #include "block.hpp"
 #include <cmath>
-float Block::countingDist(Vector2 posPlayer){
-    float proectionX = abs(pos.x - posPlayer.x);      
+float Block::countingDist(Vector2 posPlayer)
+{
+    float proectionX = abs(pos.x - posPlayer.x);
     float proectionY = abs(pos.y - posPlayer.y);
 
     float d = sqrt(pow(proectionX, 2) + pow(proectionY, 2));
-    return d;      
+    if (d > 20)
+    {
+        return d;
+    }
+    else{
+        return 20.f; 
+    }
 }
 
-Block::Block(Texture2D tex, Vector2 position, Vector2 siz, bool Type){
+Block::Block(Texture2D tex, Vector2 position, Vector2 siz, bool Type)
+{
     texture = tex;
     pos = position;
     size = siz;
